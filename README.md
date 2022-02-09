@@ -7,6 +7,12 @@ Like coding with potential NPEs? Now you can do it Primeagen style!
 With this plugin installed every time you write `!!` in Kotlin file, 
 you will hear Prime screams – [Prime screams](https://www.youtube.com/watch?v=kkcHypEr5y8).
 
+
+
+https://user-images.githubusercontent.com/9678279/153226041-b5d384d3-902f-4d54-9146-21319be2dc1b.mp4
+
+
+
 ## Installation
 
 ### From Github Releases

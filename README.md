@@ -1,4 +1,4 @@
-# Prime Screams for Intellij IDE
+# Prime Screams`!!`
 
 > ARGHHHH!!!
 > <br> _– Prime_

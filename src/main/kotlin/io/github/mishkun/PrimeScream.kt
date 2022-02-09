@@ -14,7 +14,7 @@ import java.io.BufferedInputStream
 import javax.sound.sampled.AudioInputStream
 import javax.sound.sampled.AudioSystem
 
-const val WILHELM_SCREAM_PATH = "wilhelm.wav"
+const val PRIME_SCREAMS_PATH = "prime_screams.wav"
 val ktFileExtensionRegex = "kts?$".toRegex()
 
 fun invokeLaterOnEDT(block: () -> Unit) =
@@ -48,7 +48,7 @@ class WilhelmScreamListener : DocumentListener {
         if (file?.extension?.matches(ktFileExtensionRegex) != true) return
         if (event.newFragment.contains("!!") ||
             event.withPreviousChar() == "!!") {
-            playSound(WILHELM_SCREAM_PATH)
+            playSound(PRIME_SCREAMS_PATH)
         }
     }
 

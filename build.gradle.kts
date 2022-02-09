@@ -4,8 +4,8 @@ plugins {
     id("org.jetbrains.kotlin.jvm")  version "1.5.31"
 }
 
-group = "io.github.mishkun"
-version = "1.0.2"
+group = "com.github.theapache64"
+version = "1.0.0"
 
 repositories {
     mavenCentral()

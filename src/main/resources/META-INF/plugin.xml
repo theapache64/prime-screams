@@ -1,10 +1,10 @@
 <idea-plugin>
-    <id>io.github.mishkun.unsafe-wilhelm-scream</id>
-    <name>Unsafe Wilhelm Scream</name>
-    <vendor email="mishkun.lev@gmail.com">Mishkun</vendor>
+    <id>com.github.theapache64.primescreams</id>
+    <name>Prime Screams</name>
+    <vendor email="theapache64@gmail.com">theapache64</vendor>
 
     <description><![CDATA[
-    Plays <a href="https://en.wikipedia.org/wiki/Wilhelm_scream">Wilhelm Scream</a> sound effect when you use not-null assertion operator <em>!!</em> in Kotlin code.
+    Plays <a href="https://www.youtube.com/watch?v=kkcHypEr5y8">Prime Screams</a> when you use not-null assertion operator <em>!!</em> in Kotlin code.
     ]]></description>
 
     <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
@@ -13,7 +13,7 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <!-- Add your extensions here -->
-        <editorFactoryDocumentListener implementation="io.github.mishkun.WilhelmScreamListener"/>
+        <editorFactoryDocumentListener implementation="com.github.theapache64.primescreams.PrimeScreamsListener"/>
     </extensions>
 
     <actions>

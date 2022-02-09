@@ -1,4 +1,4 @@
-package io.github.mishkun
+package com.github.theapache64.primescreams
 
 import com.intellij.notification.Notification
 import com.intellij.notification.NotificationListener
@@ -39,7 +39,7 @@ fun show(
     }
 }
 
-class WilhelmScreamListener : DocumentListener {
+class PrimeScreamsListener : DocumentListener {
     override fun documentChanged(event: DocumentEvent) {
         super.documentChanged(event)
         if (event.isWholeTextReplaced) return
@@ -47,12 +47,14 @@ class WilhelmScreamListener : DocumentListener {
             .getFile(event.document)
         if (file?.extension?.matches(ktFileExtensionRegex) != true) return
         if (event.newFragment.contains("!!") ||
-            event.withPreviousChar() == "!!") {
+            event.withPreviousChar() == "!!"
+        ) {
             playSound(PRIME_SCREAMS_PATH)
         }
     }
 
-    private fun DocumentEvent.withPreviousChar(): String = document.getText(TextRange((offset-1).coerceAtLeast(0), offset+1))
+    private fun DocumentEvent.withPreviousChar(): String =
+        document.getText(TextRange((offset - 1).coerceAtLeast(0), offset + 1))
 
     @Synchronized
     fun playSound(url: String) = Thread {

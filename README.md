@@ -1,28 +1,17 @@
-# Unsafe Wilhelm Scream for Intellij IDE
+# Prime Screams for Intellij IDE
 
-[![JetBrains IntelliJ Plugins](https://img.shields.io/jetbrains/plugin/v/17970-unsafe-wilhelm-scream?label=version)](https://plugins.jetbrains.com/plugin/17970-unsafe-wilhelm-scream)
-[![jb downloads](https://img.shields.io/jetbrains/plugin/d/17970-unsafe-wilhelm-scream?label=downloads)](https://plugins.jetbrains.com/plugin/17970-unsafe-wilhelm-scream)
+> ARGHHHH!!!
+> <br> _– Prime_
 
-> AAAAAAAAAUUOOUH!
-> <br> _– every Hollywood action movie_
-
-Like coding with potential NPEs? Now you can do it Hollywood style!
+Like coding with potential NPEs? Now you can do it Primeagen style!
 With this plugin installed every time you write `!!` in Kotlin file, 
-you will hear an iconic Hollywood sound effect – [Wilhelm Scream](https://en.wikipedia.org/wiki/Wilhelm_scream).
-
-
-https://user-images.githubusercontent.com/12541804/140659382-89944ae1-a1d7-4566-a44b-e3f570710c64.mp4
-
+you will hear Prime screams – [Prime screams](https://www.youtube.com/watch?v=kkcHypEr5y8).
 
 ## Installation
 
-### From Jetbrains Marketplace
-
-Visit Jetbrains Marketplace using this link https://plugins.jetbrains.com/plugin/17970-unsafe-wilhelm-scream
-
 ### From Github Releases
 
-Download latest release from [releases](https://github.com/Mishkun/unsafe-wilhelm-scream/releases).
+Download latest release from [releases](https://github.com/theapache64/prime-screams/releases).
 Then follow Intellij IDE docs about [installing plugin from disk](https://www.jetbrains.com/help/idea/managing-plugins.html#install_plugin_from_disk).
 
 ### From Source

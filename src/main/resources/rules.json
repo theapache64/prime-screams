@@ -1,0 +1,18 @@
+[
+  {
+    "extensions": [
+      "kt",
+      "kts"
+    ],
+    "rules": [
+      {
+        "words": ["!!"],
+        "audio": "prime_screams.wav"
+      },
+      {
+        "words": ["class","object"],
+        "audio": "are_you_ready_for_this.wav"
+      }
+    ]
+  }
+]

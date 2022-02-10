@@ -2,6 +2,7 @@ plugins {
     `kotlin-dsl`
     id("org.jetbrains.intellij")  version "1.2.1"
     id("org.jetbrains.kotlin.jvm")  version "1.5.31"
+    kotlin("plugin.serialization") version "1.5.31"
 }
 
 group = "com.github.theapache64"
@@ -13,6 +14,7 @@ repositories {
 
 dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib")
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.2.1")
 }
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/

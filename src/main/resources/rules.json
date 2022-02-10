@@ -9,6 +9,10 @@
       {
         "words": ["class","object"],
         "audio": "are_you_ready_for_this.wav"
+      },
+      {
+        "words": ["++","+="],
+        "audio": "increment.wav"
       }
     ]
   }

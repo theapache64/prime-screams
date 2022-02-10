@@ -1,9 +1,6 @@
 [
   {
-    "extensions": [
-      "kt",
-      "kts"
-    ],
+    "extensions": ["kt", "kts"],
     "rules": [
       {
         "words": ["!!"],
